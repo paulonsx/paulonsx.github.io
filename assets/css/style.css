@@ -2,21 +2,11 @@
 
 header {
     display: flex;
-    justify-content: space-between; /*Alinha os itens flex na horizontal*/
+    justify-content: end; /*Alinha os itens flex na horizontal*/
     align-items: center;
     background-color: #7144A8;
     border-bottom: 10px solid #000;
     padding: 10px 20px 10px 20px;
-}
-
-h1 {
-    font-family: 'Press Start 2P', sans-serif;
-    color: #FFF;
-    text-shadow: 5px 5px 0px #000;
-}
-
-nav {
-    text-align: right;
 }
 
 a {
@@ -43,14 +33,14 @@ a:hover {
     transform: scale(1.08);
 }
 
-#button {
+.button {
     display: inline-block;
+    padding: 18px 20px;
     background-color: #467BC4;
     box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
     margin-right: 0;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
 }
