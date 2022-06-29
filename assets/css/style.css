@@ -32,15 +32,3 @@ a::before {
 a:hover {
     transform: scale(1.08);
 }
-
-.button {
-    display: inline-block;
-    padding: 18px 20px;
-    background-color: #467BC4;
-    box-shadow: 5px 5px 0px #000000;
-    margin-right: 0;
-}
-
-.button:hover {
-    transform: scale(1.08);
-}
