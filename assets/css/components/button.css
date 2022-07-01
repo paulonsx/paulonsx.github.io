@@ -3,7 +3,10 @@
     padding: 18px 20px;
     background-color: #467BC4;
     box-shadow: 5px 5px 0px #000000;
-    margin-right: 0;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: transform 100ms linear;
 }
 
 .button:hover {
