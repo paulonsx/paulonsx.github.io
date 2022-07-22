@@ -1,10 +1,10 @@
 .button {
     display: inline-block;
     padding: 18px 20px;
-    background-color: #467BC4;
-    box-shadow: 5px 5px 0px #000000;
+    background-color: var(--color-first);
+    box-shadow: 5px 5px 0px var(--color-black-first);
     font-size: 20px;
-    color: #FFF;
+    color: var(--color-third);
     text-decoration: none;
     transition: transform 100ms linear;
 }

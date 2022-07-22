@@ -1,8 +1,8 @@
 .action {
     display: inline-flex;
-    align-items: center; /*Alinha os itens flex na vertical*/
+    align-items: center;
     font-size: 20px;
-    color: #FFF;
+    color: var(--color-third);
     text-decoration: none;
     margin-right: 30px;
     transition: transform 100ms linear;
@@ -10,7 +10,7 @@
 
 .action::before {
     content: "";
-    background-color: #467BC4;
+    background-color: var(--color-first);
     width: 10px;
     height: 10px;
     margin-right: 10px;
